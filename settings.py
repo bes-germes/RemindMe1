@@ -12,11 +12,11 @@ PLUGINS_ONLY_DOC_STRING = False
 
 # Default settings
 MATTERMOST_API_VERSION = 4
-BOT_URL = 'http://vega.fcyb.mirea.ru/mattermost/api/v4'
-BOT_LOGIN = 'remindbot@mail.ru'
-BOT_PASSWORD = 'OIuRMp22rpe)'
+BOT_URL = 'http://localhost:8065/api/v4'
+BOT_LOGIN = 'brembot@oleg.oleg'
+BOT_PASSWORD = 'Password1!'
 BOT_TOKEN = None
-BOT_TEAM = 'BotTest'
+BOT_TEAM = 'botlamers'
 SSL_VERIFY = True
 WS_ORIGIN = None
 WEBHOOK_ID = None  # if not specified mmpy_bot will attempt to create one
