@@ -1,0 +1,1 @@
+{"reminders": [{"users": [""], "data": "", "freq": 0, "time": 0, "delete": "False"}, {"users": ["@lol", "@kruzkov"], "data": "go to sleep", "freq": "5", "time": "5", "delete": "False"}]}
