@@ -16,6 +16,20 @@ def reply_specific_time(message, content, trigger_time):
     except:
         message.reply(
             "Wrong time format:\n right example: Feb-02-2020_23:59:59")
+        
+# @respond_to('remind \"(.*)\" \"(.*)\" at \"(.*)\" every \"(.*)\"', re.IGNORECASE)
+# def reply_lol(message, people, content, trigger_time, freq):
+#     with open('reminders.txt') as json_file:
+#         data = json.load(json_file)
+#         data['reminders'].append({
+#             'users': list(people.split()),
+#             'data': content,
+#             'freq': freq,
+#             'time': trigger_time,
+#             'delete': 'False'
+#         })
+#         with open('reminders.txt', 'w') as outfile:
+#             json.dump(data, outfile)
 
 
 @respond_to('remind \"(.*)\" \"(.*)\" at \"(.*)\" every \"(.*)\"', re.IGNORECASE)
